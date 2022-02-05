@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "npm-i-run":"npm i && npm run dev",
+    "yarn-i-run": "yarn install && yarn dev",
     "lint": "next lint"
   },
   "dependencies": {
