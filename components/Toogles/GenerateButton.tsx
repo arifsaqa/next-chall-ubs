@@ -4,7 +4,7 @@ interface IButton {
 }
 export const GenerateButton = styled.div<IButton>`
   position: relative;
-  width: ${(props) => (props.loading ? "120px" : "100px")};
+  width: ${(props) => (props.loading=="true" ? "120px" : "100px")};
   background-color: #4ade80;
   transition:all .5s ease-in-out;
   padding: 0.5rem 1rem;

@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
-import { useDebounce } from "use-debounce";
+import { StyledLink } from "../components/Author/Author.styles";
 import Container from "../components/Container/Container";
 import { useTogglerContext } from "../components/Context/TogglerContext";
 import SearchContainer from "../components/Search/SearchContainer";
@@ -19,7 +20,16 @@ export default function Home() {
 
       <Container>
         <h1>Programming Quotes</h1>
-        <p>{checked?"Author":"Quotes"}</p><Toggle/>
+        <Link href="/quotes/random">
+          <StyledLink
+            href="/quotes/random"
+            style={{ position: "fixed", top: 10, right: 10 }}
+          >
+            Quote Random Generator
+          </StyledLink>
+        </Link>
+        <p>{checked ? "Author" : "Quotes"}</p>
+        <Toggle />
         <SearchContainer />
       </Container>
     </>
