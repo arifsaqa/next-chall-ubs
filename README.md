@@ -1,4 +1,4 @@
-First, run the development server:
+First, to run this project:
 
 ```bash
 npm i
