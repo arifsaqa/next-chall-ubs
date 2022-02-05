@@ -1,7 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 import { StyledLink } from "../components/Author/Author.styles";
 import Container from "../components/Container/Container";
 import { useTogglerContext } from "../components/Context/TogglerContext";

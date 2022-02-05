@@ -2,7 +2,6 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Container from "../../components/Container/Container";
 import RefreshIcon from "../../components/Icons/Refresh";
-import RenderQuote from "../../components/Quote/Quote";
 import Head from "next/head";
 import { QuoteCard } from "../../components/Quote/Quote.style";
 import {GenerateButton} from "../../components/Toogles/GenerateButton";
