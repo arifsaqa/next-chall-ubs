@@ -1,8 +1,7 @@
 import Quote from "./Quote";
 
-export default interface Author {
+export default interface AuthorType {
   name: string;
   wikiUrl: string;
-  quotes: Quote[];
   quoteCount: number;
 }

@@ -7,4 +7,6 @@ export const InputSearch = styled.input`
 `;
 export const InputContainer = styled.div`
 margin-top:1rem;
+display:flex;
+flex-direction:column;
 `;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Quote() {
+export default function PersonIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
